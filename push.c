@@ -1,5 +1,3 @@
-// push.c
-
 #include "monty.h"
 #include <stdlib.h>
 
@@ -31,8 +29,6 @@ void push(stack_t **stack, unsigned int line_number, char *arg)
 
     *stack = new_node;
 }
-
-// pall.c
 
 #include "monty.h"
 #include <stdio.h>
